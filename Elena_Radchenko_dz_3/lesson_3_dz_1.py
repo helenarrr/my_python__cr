@@ -4,6 +4,7 @@ user_request = input("Введите числительное от 0 до 10 н�
 def num_translate(user_request, translator_dict):
     return translator_dict.get(user_request)
 
+
 translator_dict = {
     "one": "один",
     "two": "два",
